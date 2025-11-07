@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Five | Car Hiring Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <section class="hero">
+        <h1>Find Your Perfect Rental Car</h1>
+        <input type="text" id="search" placeholder="Search for a car...">
+        <button onclick="searchCar()">Search</button>
+    </section>
+
+    <section id="cars" class="featured-cars">
+        <h2><b>Featured Cars</b></h2>
+        <div class="car-list">
+            <div class="car-card">
+                <img src="./assets/vehicle-images/toyota-vitz/rear-right.jpg" alt="Car 1">
+                <h3>Toyota Vitz</h3>
+                <p>KES 3,000/day</p>
+                <a href="car-details.html?car=toyota-vitz">
+                    <button>Learn More</button>
+              </a>
+            </div>
+            <div class="car-card">
+                <img src="./assets/vehicle-images/nissan-xtrail/nissan-xtrail-front.png" alt="Car 2">
+                <h3>Nissan X-Trail</h3>
+                <p>KES 6,000/day</p>
+                <a href="car-details.html?car=nissan-xtrail">
+                    <button>Learn More</button>
+              </a>
+              
+            </div>
+            <div class="car-card">
+                <img src="./assets/vehicle-images/mercedes-benz/mercedes-benz-c-class-rear-right.png" alt="Car 3">
+                <h3>Mercedes C-Class</h3>
+                <p>KES 10,000/day</p>
+                <a href="car-details.html?car=mercedes-c-class">
+                    <button>Learn More</button>
+                </a>
+            </div>
+            <div class="car-card">
+                <img src="./assets/vehicle-images/toyota-vitz/front.jpg" alt="Toyota Vitz">
+                <h3>Toyota Vitz</h3>
+                <p>KES 3,000/day</p>
+                <button class="book-btn">Learn More</button>
+            </div>
+            <div class="car-card">
+                <img src="./assets/vehicle-images/nissan-xtrail/nissan-xtrail-side.png" alt="Toyota Vitz">
+                <h3>nissan-Xtrail</h3>
+                <p>KES 6,000/day</p>
+                <button class="book-btn">Learn More</button>
+            </div>
+            <div class="car-card">
+                <img src="./assets/vehicle-images/mercedes-benz/mercedes-benz-c-class-back.png" alt="Toyota Vitz">
+                <h3>mercedes-benz</h3>
+                <p>KES 10,000/day</p>
+                <button class="book-btn">Learn More</button>
+            </div>
+        </div>
+
+        <div class="more-cars">
+            <a href="cars.html">
+                <button>See More Cars</button>
+          </a>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <section class="services-heading-section">
+            <h2 class="services-section-h2">Our Car Rental Services</h2>
+            <p>At Car Hire Kenya we offer all-inclusive car hire and car rental services in Nairobi Kenya. Contact us for a custom package.</p>
+        </section>
+        <div class="services-cards-container">
+            <div class="service-card">
+                <img src="./assets/icons/car-rentel.png" alt="Self Driven Car Rentals">
+                <div class="service-content">
+                    <h3>Self Drive Car Rentals</h3>
+                    <p>We offer group & private hire and discounted long-term professional car hire services at competitive rates.</p>
+                    
+                </div>
+            </div>
+    
+            <div class="service-card">
+                <img src="./assets/icons/chauffer-driven-car-hire.png" alt="Chauffeur Driven Car Rental">
+                <div class="service-content">
+                    <h3>Chauffeur Driven Car Rentals</h3>
+                    <p>We offer group & private car hire with professional drivers at competitive rates.</p>
+                    
+                </div>
+            </div>
+    
+            <div class="service-card">
+                <img src="./assets/icons/long-term-car-hire.png" alt="Long Term Car Rental">
+                <div class="service-content">
+                    <h3>Long Term Car Rentals</h3>
+                    <p>We provide long-term car rental services at discounted rates for personal use within the specified paid duration of the hire contract.</p>
+                    
+                </div>
+            </div>
+    
+            <div class="service-card">
+                <img src="./assets/icons/vip-car-hire.png" alt="VIP Car Rental">
+                <div class="service-content">
+                    <h3>VIP and Event Car Hire</h3>
+                    <p>For your staff and invited guests, we also organize transfers from all venues within Kenya for your conference and meeting needs.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="final-cta-section">
+        <div class="rental-section">
+            <div class="rental-content">
+                <h2>Find Your Perfect Car Today</h2>
+                <p>Find the perfect car for your next adventure. Request a quote and book in just a few clicks.</p>
+                <a href="request-quote-page.html"><button class="last-cta-btn">REQUEST A QUOTE</button></a>
+            </div>
+            <div class="rental-features">
+                <ul>
+                    <li>Flexible Pick up and drop off service</li>
+                    <li>We operate 24/7 throughout the year</li>
+                    <li>Unlimited mileage</li>
+                    <li>Long-term discount discounts</li>
+                    <li>Trustworthy & reliable services</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-section">
+        <div class="footer-section-container">
+            <div class="site-pages">
+                <h4>Website Pages</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cars.html">Cars</a></li>
+                    <li><a href="about-page.html">About</a></li>
+                    <li><a href="contact-page.html">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="services">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Self Drive Car Rentals</a></li>
+                    <li><a href="#">Chauffeur Driven Car Rentals</a></li>
+                    <li><a href="#">Long Term Car Rentals</a></li>
+                    <li><a href="#">VIP and Event Car Hire</a></li>
+                </ul>
+            </div>
+    
+            <div class="social-media-links">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+    
+    
+            <div class="contact-info">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="tel:+254708927845">+254708927845</a></li>
+                </ul>
+                <ul>
+                    <li><a href="mailto:raydonsimiyu@gmail.com">raydonsimiyu@gmail.com</a></li>
+                </ul>
+                
+            </div>
+        </div>
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

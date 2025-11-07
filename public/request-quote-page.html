@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page - Car Hire Kenya</title>
+    <link rel="stylesheet" href="request-quote-page.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Car Hire Kenya</div>
+    <button class="hamburger" id="hamburger">
+        ☰
+    </button>
+    <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cars.html">Cars</a></li>
+        <li><a href="about-page.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+</nav>
+
+  <section class="contact-section">
+    <div class="form-container">
+      <h2>Request A Quote</h2>
+      <p>You can also call us at:</p>
+        <p><a href="tel:+254708927845"><button lkid="call-button">+254708927845</button></a></p>
+      <form id="quoteForm" action="process_quote.php" method="post">
+          <input type="text" placeholder="Name*" required>
+          <input type="text" placeholder="Destination*" required>
+          <select required>
+              <option value="">Select Car Category</option>
+              <option value="Sedan">Sedan</option>
+              <option value="SUV">SUV</option>
+              <option value="Luxury">Luxury</option>
+          </select>
+          <input type="tel" placeholder="Phone Number*" required>
+          <input type="email" placeholder="Email*" required>
+          <input type="date" placeholder="Pick-Up-Date*" required>
+          <input type="date" placeholder="Drop-off-Date*" required>
+          <p>How would you like to be contacted</p>
+          <div class="contact-options">
+            <label><input type="checkbox"> Email</label>
+            <label><input type="checkbox"> WhatsApp</label>
+            <label><input type="checkbox"> Call</label>
+        </div>
+          <button type="submit" class="btn">REQUEST A QUOTE</button>
+      </form>
+    </div>
+    
+    <div id="popupMessage" class="popup-message"></div>    
+
+  </section>
+
+  <script src="request-quote-page.js"></script>
+</body>
+</html>

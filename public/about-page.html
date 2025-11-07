@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>About Us - Car Hire Kenya</title>
+    <link rel="stylesheet" href="about-page.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">Car Hire Kenya</a>
+        </div>
+        <button class="hamburger" id="hamburger">
+            ☰
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" onclick="scrollToServices()">Services</a></li>
+            <li><a href="cars.html">Cars</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-image">
+            <img src="./assets/hero-section-images/header-drone-image.erased.png" alt="drone image of the Croton Motors headquarters" width="600px" height="300px">
+        </div>
+        <div class="hero-content">
+            <h1>About Car Hire Kenya</h1>
+            <p>We are Kenya’s trusted car hire service, dedicated to providing safe, reliable, and affordable vehicles for every journey. Whether you're traveling for business or leisure, we have the perfect car for you.</p>
+            <a href="cars.html">
+                <button>Available Cars</button>
+            </a>
+        </div>
+    </section>
+
+    <section class="why-choose-us-section">
+        <h2>Why Choose Us?</h2>
+        <div class="company-values">
+            <div class="values-card">
+                <img src="./assets/icons/icons8-reliable-100.png" alt="Reliable services">
+                <h3>Reliability</h3>
+                <p>Every vehicle in our fleet is well-maintained and undergoes regular inspections to ensure your safety and comfort.</p>
+            </div>
+            <div class="values-card">
+                <img src="./assets/icons/icons8-secured-100.png" alt="Secure cars">
+                <h3>Security</h3>
+                <p>Your security is our priority. All our cars are insured and maintained to the highest standards.</p>
+            </div>
+            <div class="values-card">
+                <img src="./assets/icons/icons8-convenient-100.png" alt="Convient services">
+                <h3>Convenience</h3>
+                <p>Our booking process is simple and straightforward, so you can get on the road in no time.</p>
+            </div>
+            <div class="values-card">
+                <img src="./assets/icons/icons8-customer-service-100.png" alt="24/7 customer service">
+                <h3>Customer Service</h3>
+                <p>Our customer support team is available 24/7 to assist you with any queries or concerns you may have.</p>
+            </div>
+            <div class="values-card">
+                <img src="./assets/icons/icons8-affordable-100.png" alt="Affordable prices">
+                <h3>Affordability</h3>
+                <p>Competitive pricing with no hidden fees.</p>
+            </div>
+            <div class="values-card">
+                <img src="./assets/icons/icons8-grow-100.png" alt="Sustainability">
+                <h3>Sustainability</h3>
+                <p>We are committed to reducing our environmental impact with fuel-efficient and hybrid car options.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <section class="services-heading-section">
+            <h2 class="services-section-h2">Our Car Rental Services</h2>
+            <p>At Car Hire Kenya we offer all-inclusive car hire and car rental services in Nairobi Kenya. Contact us for a custom package.</p>
+        </section>
+        <div class="services-cards-container">
+            <div class="service-card">
+                <img src="./assets/icons/car-rentel.png" alt="Self Driven Car Rentals">
+                <div class="service-content">
+                    <h3>Self Drive Car Rentals</h3>
+                    <p>We offer group & private hire and discounted long-term professional car hire services at competitive rates.</p>
+                    
+                </div>
+            </div>
+    
+            <div class="service-card">
+                <img src="./assets/icons/chauffer-driven-car-hire.png" alt="Chauffeur Driven Car Rental">
+                <div class="service-content">
+                    <h3>Chauffeur Driven Car Rentals</h3>
+                    <p>We offer group & private car hire with professional drivers at competitive rates.</p>
+                    
+                </div>
+            </div>
+    
+            <div class="service-card">
+                <img src="./assets/icons/long-term-car-hire.png" alt="Long Term Car Rental">
+                <div class="service-content">
+                    <h3>Long Term Car Rentals</h3>
+                    <p>We provide long-term car rental services at discounted rates for personal use within the specified paid duration of the hire contract.</p>
+                    
+                </div>
+            </div>
+    
+            <div class="service-card">
+                <img src="./assets/icons/vip-car-hire.png" alt="VIP Car Rental">
+                <div class="service-content">
+                    <h3>VIP and Event Car Hire</h3>
+                    <p>For your staff and invited guests, we also organize transfers from all venues within Kenya for your conference and meeting needs.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-team-section">
+        <h2>Our Team</h2>
+        <div class="our-team-div">
+            <div class="employee-card">
+                <img src="./assets/team-photos/profile-pic.png" alt="John Dean" width="100px" height="100px">
+                <h5>John Odhiambo</h5>
+                <p>Managing Director</p>
+            </div>
+    
+            <div class="employee-card">
+                <img src="./assets/team-photos/profile-pic.png" alt="" width="100px" height="100px">
+                <h5>David Murithi</h5>
+                <p>Car Hire Consultant</p>
+            </div>
+    
+            <div class="employee-card">
+                <img src="./assets/team-photos/profile-pic.png" alt="" width="95px" height="100px">
+                <h5>James Kamau</h5>
+                <p>Head Mechanic</p>
+            </div>
+        </div>
+       
+    </section>
+
+    <section class="social-proof-section">
+        <h2>What Our Customers Say</h2>
+        <div class="carousel-container">
+            <button class="carousel-nav-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="carousel">
+                <div class="review">
+                    <img src="./assets/team-photos/profile-pic.png" alt="a photo of one of our past customers" width="100px" height="100px">
+                    <h5>Mark Kimungui</h5>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>Fantastic service. The car was such a daisy, my family enjoyed the ride to ushago.</p>
+                </div>
+                <div class="review">
+                    <img src="./assets/team-photos/profile-pic.png" alt="a photo of one of our past customers" width="100px" height="100px">
+                    <h5>Peter Kariuki</h5>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>My experience with CHK was great. The car was sick as well. It was the sickest ride in my life lol. Highly recommend Car Hire Kenya.</p>
+                </div>
+                <div class="review">
+                    <img src="./assets/team-photos/profile-pic.png" alt="a photo of one of our past customers" width="100px" height="100px">
+                    <h5>Moses Kipkoech</h5>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>I regret not knowing you early. I can't recommend you enough; your dedication to keep all your cars in good conditions and your excellent customer service are unmatched.</p>
+                </div>
+            </div>
+            <button class="carousel-nav-btn next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+
+    <section class="final-cta-section">
+        <div class="rental-section">
+            <div class="rental-content">
+                <h2>Find Your Perfect Car Today</h2>
+                <p>Find the perfect car for your next adventure. Request a quote and book in just a few clicks.</p>
+                <a href="request-quote-page.html"><button class="last-cta-btn">REQUEST A QUOTE</button></a>
+            </div>
+            <div class="rental-features">
+                <ul>
+                    <li>Flexible Pick up and drop off service</li>
+                    <li>We operate 24/7 throughout the year</li>
+                    <li>Unlimited mileage</li>
+                    <li>Long-term discount discounts</li>
+                    <li>Trustworthy & reliable services</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="footer-section">
+        <div class="footer-section-container">
+            <div class="site-pages">
+                <h4>Website Pages</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cars.html">Cars</a></li>
+                    <li><a href="about-page.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="services">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Self Drive Car Rentals</a></li>
+                    <li><a href="#services">Chauffeur Driven Car Rentals</a></li>
+                    <li><a href="#services">Long Term Car Rentals</a></li>
+                    <li><a href="#services">VIP and Event Car Hire</a></li>
+                </ul>
+            </div>
+    
+            <div class="social-media-links">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="https://www.meta.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+    
+    
+            <div class="contact-info">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="tel:+254708927845">+254708927845</a></li>
+                </ul>
+                <ul>
+                    <li><a href="mailto:raydonsimiyu@gmail.com">raydonsimiyu@gmail.com</a></li>
+                </ul>
+                
+            </div>
+        </div>
+        
+    </section>    
+        
+    <footer>
+        <p>&copy; 2025 Croton Motors. All rights reserved.</p>
+    </footer>
+
+    <script src="about-page-script.js"></script>
+</body>
+</html>
