@@ -1,4 +1,8 @@
-Update:
+# Connecting backend
+- The car-hire project was a frontEnd project with no backend server, database for consistency, and Account features(authentication, authorization).
+- The challenge was to connect the frontEnd to my backend modules.
+- 
+# Update:
 1. Authentication for post, put, delete should be owner not admin
 2. Admin verifies, approves/reject, hides, delete, 
 3. Controllers and routes: separate the two ie dissect routes...middleware
